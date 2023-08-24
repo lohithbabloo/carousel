@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Carousel slides={images} />
-      <Othercarousel />
+      {/* <Othercarousel /> */}
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Othercarousel = () => {
   const length = images.length;
 
   const nextSlide = () => {};
-  const previous = () => {};
+  const prevSlide = () => {};
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center">
@@ -34,7 +34,7 @@ const Othercarousel = () => {
             ></img>
           </div>
           <div className="absolute left-0 top-0 flex items-center justify-center h-[100%] ">
-            <button>
+            <button onClick={prevSlide}>
               <FaArrowLeft className=" text-white w-[20px] h-[20px]  " />
             </button>
           </div>
